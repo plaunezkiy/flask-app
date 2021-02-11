@@ -41,7 +41,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: <логин-на-docker-hub>/<репозиторий-на-docker-hub>:latest
+          tags: pelish/flask-app:latest
 
   deploy:
     runs-on: ubuntu-latest
