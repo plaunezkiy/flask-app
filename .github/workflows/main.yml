@@ -53,7 +53,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          passphrase: ${{ secrets.PASSPHRASE }} # если ваш ssh-ключ защищен паролем
+          # passphrase: ${{ secrets.PASSPHRASE }} # если ваш ssh-ключ защищен паролем
           script: |
             sudo docker pull plaunezkiy/flask-app
             sudo docker stop $(sudo docker ps -a -q)
