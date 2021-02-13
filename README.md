@@ -1,3 +1,3 @@
 # flask-app
 
-https://github.com/plaunezkiy/flask-app/workflows/main.yml/badge.svg
+![Flask-app workflow](https://github.com/plaunezkiy/flask-app/workflows/Flask-app%20workflow/badge.svg)
